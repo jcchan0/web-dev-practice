@@ -1,0 +1,122 @@
+/************Default************/
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+.menu{
+	text-align: center;
+	margin: 50px;
+	font-size: 175%
+}
+.chicken_name{
+	color: black;
+	background-color: pink; 
+}
+.chicken_tab{
+	width: 30%;
+	margin-left: 2.5%;
+	margin-right: 1.25%;
+}
+.beef_name{
+	color: white;
+	background-color: red;
+}
+.beef_tab{
+	width: 30%;
+	margin-left: 1.25%;
+	margin-right: 1.25%;
+}
+.sushi_name{
+	color: black;
+	background-color: yellow;
+}
+.sushi_tab{
+	width: 30%;
+	margin-left: 1.25%;
+	margin-right: 2.5%;
+}
+.tab{
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+	background-color: #999999;
+	font-size: 125%;
+	margin-bottom: 4%;
+	height: 140px;
+	overflow: hidden;
+}
+.tab_name{
+	float: right;
+	border-left: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	width: 33%;
+}
+.tab_content{
+	clear: both;
+	margin: 5px;
+}
+/************Desktop************/
+@media (min-width: 992px){
+	.chicken_tab{
+		width: 30%;
+		margin-left: 2.5%;
+		margin-right: 1.25%;
+	}
+	.beef_tab{
+		width: 30%;
+		margin-left: 1.25%;
+		margin-right: 1.25%;
+	}
+	.sushi_tab{
+		width: 30%;
+		margin-left: 1.25%;
+		margin-right: 2.5%;
+	}
+}
+
+/*************Tablet************/
+@media (min-width: 768px) and (max-width: 991px){
+	.chicken_tab{
+		float: left;
+		width: 45%;
+		margin-left: 2.5%;
+		margin-right: 1.25%;
+	}
+	.beef_tab{
+		float: right;
+		width: 45%;
+		margin-left: 1.25%;
+		margin-right: 2.5%;
+	}
+	.sushi_tab{
+		clear: both;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		width: 95%;
+	}
+}
+/*************Phone*************/
+@media (max-width: 767px){
+	.chicken_tab{
+		float: none;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.beef_tab{
+		float: none;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.sushi_tab{
+		float: none;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
