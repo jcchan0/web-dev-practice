@@ -43,7 +43,7 @@
 	background-color: #999999;
 	font-size: 125%;
 	margin-bottom: 4%;
-	height: 140px;
+	height: 145px;
 	overflow: hidden;
 }
 .tab_name{
@@ -57,7 +57,7 @@
 }
 .tab_content{
 	clear: both;
-	margin: 5px;
+	margin: 10px; 
 }
 /************Desktop************/
 @media (min-width: 992px){
